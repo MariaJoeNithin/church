@@ -3,12 +3,28 @@
   margin: 10px !important;
   height: 5px;
   background-color: white;
+ position: relative;
+  z-index: 999 !important;
 }
 
-.slider {
+/* .slider {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1)
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
   ) !important;
+} */
+
+.slider{  
+  background: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)
+) !important;
+
+}
+
+logo{
+  width: 5rem;
+  height: 5rem;
 }
