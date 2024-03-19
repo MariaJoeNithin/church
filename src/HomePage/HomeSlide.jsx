@@ -5,14 +5,13 @@ import "./Swiperstyles.css";
 // import { FaLongArrowAltLeft } from "react-icons/fa";
 import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 
-import image1 from "./Assets/images/0E7A9537.jpg";
-import image2 from "./Assets/images/0E7A9583.jpg";
+import image1 from "../Assets/images/0E7A9537.jpg";
+import image2 from "../Assets/images/0E7A9583.jpg";
 const HomeSlide = () => {
   const imgSrc = [image1, image2];
 
   return (
     <>
-      {/* navbar */}
       <div className="relative">
         <div className=" max-h-[100vh] min-h-[100vh] overflow-hidden relative">
           <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center z-50 ">

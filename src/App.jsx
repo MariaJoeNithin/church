@@ -1,5 +1,5 @@
 import React from "react";
-import HomeSlide from "./HomeSlide";
+import HomeSlide from "./HomePage/HomeSlide";
 import ImNew from "./imNew/ImNew";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Events from "./events/Events";
@@ -8,19 +8,21 @@ import Ministries from "./ministries/Ministries";
 import Membership from "./membership/Membership";
 import Navbar from "./Navbar";
 import Give from "./give/Give";
+import Home from "./HomePage/Home";
+
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<HomeSlide />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/imNew" element={<ImNew />} />
           <Route path="/Ministries" element={<Ministries />} />
           <Route path="/Membership" element={<Membership />} />
-          <Route path="/give" element={<Give/>} />
+          <Route path="/give" element={<Give />} />
         </Routes>
       </BrowserRouter>
     </div>

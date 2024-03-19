@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Give = () => {
-  return (
-    <div>Give</div>
-  )
-}
+  return <div className="text-white text-5xl">Contribute</div>;
+};
 
-export default Give
+export default Give;

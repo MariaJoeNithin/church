@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Ministries = () => {
-  return (
-    <div>Ministries</div>
-  )
-}
+  return <div className="text-white text-5xl">Ministries</div>;
+};
 
-export default Ministries
+export default Ministries;

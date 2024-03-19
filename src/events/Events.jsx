@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Events = () => {
-  return (
-    <div>Events</div>
-  )
-}
+  return <div className="text-white text-5xl">Events</div>;
+};
 
-export default Events
+export default Events;
